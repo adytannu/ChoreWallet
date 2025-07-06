@@ -45,8 +45,8 @@
 
 2. **Configure Build Settings**
    - Framework Preset: Other
-   - Build Command: `npm run build`
-   - Output Directory: `client/dist`
+   - Build Command: `npm run build` (should auto-detect from vercel.json)
+   - Output Directory: `client/dist` (should auto-detect from vercel.json)
    - Install Command: `npm install`
 
 3. **Add Environment Variables**
