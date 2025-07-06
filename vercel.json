@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && mkdir -p dist && cp -r client/dist/* dist/",
+  "buildCommand": "vite build && mkdir -p dist && cp -r client/dist/* dist/",
   "outputDirectory": "dist",
   "rewrites": [
     {
